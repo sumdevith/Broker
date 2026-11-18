@@ -4,13 +4,13 @@
 
 | Month | Workstream | Deliverable / acceptance evidence |
 |---|---|---|
-| 1 | Founder strategy | One-page pitch; target asset class, personas, global jurisdiction matrix, funding assumptions |
-| 2 | Market data | Repeatable mock/historical ingestion, timestamps, cleaning, data dictionary, unit tests |
-| 3 | Simulation mechanics | Order lifecycle, bid/ask handling, spreads, slippage, reproducible replay |
+| 1 | Founder strategy | Confirmed focus: crypto + forex, no stocks in MVP; user personas, country/product rules, capital assumptions |
+| 2 | Market data | BTC/USDT, ETH/USDT, EUR/USD and USD/JPY market data; FX session calendar, crypto 24/7 handling, timestamp and price precision tests |
+| 3 | Simulation mechanics | Shared paper-order core; crypto spot fills vs simulated FX order assumptions; spread, fee, slippage and replay tests |
 | 4 | Accounting & portfolio | Virtual ledger, trades, positions and reconciliation invariant tests |
 | 5 | API and UX | Authenticated customer dashboard, charts, paper-order journey |
-| 6 | Research & signals | Baseline models, time-series splits, cost-aware walk-forward tests |
-| 7 | Auto paper trading | Strategy scheduling, risk limits, manual kill switch, fault tests |
+| 6 | Research & signals | Separate crypto and FX backtests with market-specific calendars, transaction costs and walk-forward evaluation |
+| 7 | Auto paper trading | Crypto/FX demo bots, product-specific risk rules and kill switch; no margin/leveraged live integration |
 | 8 | AI education | English/Khmer source-grounded assistant, uncertainty and escalation tests |
 | 9 | Security and admin | RBAC, MFA plan, monitoring, audit, threat modeling, incident response |
 | 10 | Reliability | CI/CD, staging, backup/restore, replay, performance, security review |
