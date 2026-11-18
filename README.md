@@ -50,6 +50,7 @@ The **12-month engineering target** is a reliable paper-trading product, validat
 - [05 — First seven-day sprint](docs/05_first_sprint.md)
 - [06 — Decision log](docs/06_decision_log.md)
 - [07 — Crypto and forex product scope](docs/07_crypto_forex_scope.md)
+- [08 — Solo founder and hiring roadmap](docs/08_founder_team_hiring_plan.md)
 
 ## Engineering rules
 
