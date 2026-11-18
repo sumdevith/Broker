@@ -15,6 +15,13 @@ Build a security-first, AI-assisted trading technology platform designed for **i
 5. A jurisdiction-aware compliance, onboarding, and execution architecture.
 6. An eventual legally approved brokerage or licensed-partner model.
 
+## Initial market scope (founder decision: 18 November 2026)
+
+- **Crypto:** spot-market paper trading first (BTC/USDT and ETH/USDT); crypto futures, perpetuals, margin, custody and real-money exchange integration are out of MVP scope.
+- **Forex:** FX price-feed and virtual trade simulation first (EUR/USD and USD/JPY); live retail forex, rolling spot and CFDs remain distinct regulated products subject to review.
+- **Stocks and ETFs:** excluded from the first development phase.
+- Shared strategy, quote, risk, order and portfolio interfaces will support both markets, while preserving crypto 24/7 trading vs FX weekday schedules, decimal precision, fees, bid/ask spreads, and different settlement/financing conventions.
+
 **We do not guarantee customer profit.** A brokerage should never manipulate order execution to profit from client losses. A-Book, B-Book, or hybrid execution are **research topics**, not authorizations to deal.
 
 ## What “global” means
@@ -42,6 +49,7 @@ The **12-month engineering target** is a reliable paper-trading product, validat
 - [04 — Twelve-month engineering roadmap](docs/04_12_month_roadmap.md)
 - [05 — First seven-day sprint](docs/05_first_sprint.md)
 - [06 — Decision log](docs/06_decision_log.md)
+- [07 — Crypto and forex product scope](docs/07_crypto_forex_scope.md)
 
 ## Engineering rules
 
