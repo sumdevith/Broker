@@ -20,7 +20,8 @@ Produce a defendable customer problem, value proposition, business-model compari
 No manipulated prices, asymmetric slippage, suppressed withdrawals, hidden spreads, misleading odds, or promised returns. Monitor customer outcomes and trade quality, require best execution where applicable, disclose conflicts, and restrict products for unsuitable customers under relevant local rules.
 
 ## Decide first
-- Initial instrument: forex CFD, exchange-listed stocks/ETFs, listed futures, or spot crypto (different rulebooks).
+- Founder-selected initial scope: **crypto + forex**, no stocks/ETFs at MVP. For engineering, start with simulated **spot crypto** and **FX pricing/order flows**, not live margined CFDs, leveraged derivatives or exchange custody.
+- Decide later which regulated forex product and (if desired) crypto derivatives are commercially appropriate and lawful.
 - Customer: retail education, professional research, or B2B broker technology.
 - Market-entry order: not 'all countries' but one initial authorization/partner corridor followed by review of further countries.
 - Client acquisition: lawful marketing channels, realistic acquisition cost, support language and banking/payment constraints.
@@ -36,4 +37,4 @@ Contribution = subscriptions + allowed commissions/spreads + B2B fees + disclose
 Stress test negative trading results, sudden volatility, partner termination and low customer activity. Do not use user losses as guaranteed income.
 
 ## Definition of done
-A one-page pitch, three customer personas, comparative business-model table, 10 interview prompts, draft first-market decision and honest risk statement.
+A one-page pitch for crypto/forex customers, three customer personas, comparative business-model table, 10 interview prompts, draft first country/client-market decision and honest risk statement.
